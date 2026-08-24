@@ -9,9 +9,9 @@ steps:
 - namespace: Send_Email_Package_to_Vercel
   runtime: nodejs20.x
   uses: "./Send_Email_Package_to_Vercel/entry.js"
-- namespace: Send_email_package_to_vercel
+- namespace: Send_Package_Documents_to_Vercel
   runtime: nodejs20.x
-  uses: "./Send_email_package_to_vercel/entry.js"
+  uses: "./Send_Package_Documents_to_Vercel/entry.js"
 - namespace: Classify_Package_Documents
   disabled: true
   runtime: nodejs20.x
@@ -23,4 +23,3 @@ steps:
 - namespace: Start_Native_Vercel_Workflow
   runtime: nodejs20.x
   uses: "./Start_Native_Vercel_Workflow/entry.js"
-
