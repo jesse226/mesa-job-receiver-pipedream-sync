@@ -1,5 +1,6 @@
 schema: workflow/2022.04
 name: Mesa Job Receiver - Gmail Intake Adapter
+inactive: true
 settings:
   auto_retry: true
   error_notification: true
